@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-11 17:11:39.117543",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "design_template",
+  "content_blocks"
+ ],
+ "fields": [
+  {
+   "fieldname": "design_template",
+   "fieldtype": "Data",
+   "label": "Design template"
+  },
+  {
+   "fieldname": "content_blocks",
+   "fieldtype": "Data",
+   "label": "Content blocks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-11 17:12:42.395907",
+ "modified_by": "Administrator",
+ "module": "CMS",
+ "name": "DesignContent",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

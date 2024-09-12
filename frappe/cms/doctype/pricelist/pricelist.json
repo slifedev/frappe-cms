@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-11 17:08:16.607288",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "start_date",
+  "end_date",
+  "price_per_night",
+  "accommodation"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "label": "Start date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End date"
+  },
+  {
+   "fieldname": "price_per_night",
+   "fieldtype": "Data",
+   "label": "Price per night"
+  },
+  {
+   "fieldname": "accommodation",
+   "fieldtype": "Data",
+   "label": "Accommodation",
+   "options": "Accommodation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-11 17:10:13.266437",
+ "modified_by": "Administrator",
+ "module": "CMS",
+ "name": "PriceList",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
